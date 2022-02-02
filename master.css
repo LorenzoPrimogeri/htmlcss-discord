@@ -10,6 +10,9 @@
     display: table;
     clear: both;
   }
+.white{
+    color:white;
+}
 
 .w-25{
     width: 25%;
@@ -56,15 +59,31 @@ a{
 }
 ul li a{
     color: white;
+    padding: 20px;
 }
 .top-header .btn{
     line-height: 0;
-    margin-top: 37px;
+    margin-top: 30px;
     color: black;
     background-color: white;
-    padding: 10px 16px;
+    padding: 15px 26px;
     border-radius: 40px;
 }
 a:hover{
     text-decoration: underline;
+}
+.bottom-header{
+    position: relative;
+    background-image: url("img/jumbo.png");
+    background-size: cover;
+    height: 400px;
+}
+.content{
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
 }
