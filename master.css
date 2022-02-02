@@ -5,15 +5,24 @@
     font-family: sans-serif;
 }
 /* utilies */
+
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
   }
-.white{
+.t-white{
     color:white;
 }
-
+.t-black{
+    color:black;
+}
+.b-white{
+    background-color:white;
+}
+.b-black{
+    background-color:black;
+}
 .w-25{
     width: 25%;
 }
@@ -26,6 +35,7 @@
 .right{
     float: right;
 }
+
 /* Content */
 .conteiner{
     width: 60vw;
@@ -61,13 +71,13 @@ ul li a{
     color: white;
     padding: 20px;
 }
-.top-header .btn{
-    line-height: 0;
-    margin-top: 30px;
-    color: black;
-    background-color: white;
+.btn{
     padding: 15px 26px;
     border-radius: 40px;
+}
+.top-header .btn{
+    line-height: 0;
+    margin-top: 30px; 
 }
 a:hover{
     text-decoration: underline;
@@ -76,14 +86,27 @@ a:hover{
     position: relative;
     background-image: url("img/jumbo.png");
     background-size: cover;
-    height: 400px;
+    height: 60vh;
 }
 .content{
     text-align: center;
-    width: 50%;
+    width: 35%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
+    margin-bottom: 200px;
+}
+.content h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.content p{
+    font-size: 20px;
+    line-height: 1.625;
+    margin-bottom: 50px;
+}
+.bottom-header a{
+    margin: 20px;
+
 }
