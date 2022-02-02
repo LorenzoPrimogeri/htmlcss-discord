@@ -62,7 +62,6 @@ body{
 .right{
     float: right;
 }
-
 /* Content */
 .conteiner{
     width: 60vw;
@@ -75,11 +74,9 @@ header{
     height: 80px;
     line-height: 80px;
 } 
-
 .top-header img{
     vertical-align: middle;
 }
-
 a{
     text-decoration: none;
 }
@@ -94,7 +91,7 @@ a{
 .top-header ul li{
     display: inline-block;
 }
-ul li a{
+.top-header ul li a{
     color: white;
     padding: 20px;
 }
@@ -153,6 +150,7 @@ a:hover{
     margin-right: 30px;
 }
 .special-conteiner{
+    position: relative;
     background-color: rgba(214, 193, 193,0.2);
     width: 100vw;
     padding-bottom: 70px;
@@ -183,7 +181,6 @@ a:hover{
 footer{
     width: 100vw;
     background-color: rgb(29, 29, 63);
-    height: 400px;
 }
 .footerconteiner{
     padding-top: 50px;
@@ -197,17 +194,75 @@ footer{
     display: inline-block;
 }
 .footerconteiner ul{
-    display: inline-block;
+    font-weight: 900;
+    color: skyblue;
 }
 .footerconteiner ul li{
+    font-weight: 700;
+    list-style: none;
+}
+.footerconteiner ul li a{
+    color: white;
+}
+img[src="img/ita.png"]{
+    width: 10%;
+    display: inline;
+}
+.language{
     display: inline-block;
-    color: skyblue;
+}
+.social i{
+    padding: 30px 10px 10px 10px;
 }
 .footdiv{
     display: inline-block;
 }
 .info{
     display: inline-block;
-    vertical-align: top;
+    vertical-align: top; 
     line-height:40px;
+}
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.custom-shape-divider-top-1643837858 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1643837858 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 98px;
+}
+
+.custom-shape-divider-top-1643837858 .shape-fill {
+    fill: #D6C1C1;
+}
+
+.custom-shape-divider-bottom-1643837916 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1643837916 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 98px;
+}
+
+.custom-shape-divider-bottom-1643837916 .shape-fill {
+    fill: #D6C1C1;
 }
